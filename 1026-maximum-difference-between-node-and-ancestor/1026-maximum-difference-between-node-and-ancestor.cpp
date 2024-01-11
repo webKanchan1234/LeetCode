@@ -12,26 +12,27 @@
 class Solution {
 public:
     int mx=INT_MIN;
-    void helper(TreeNode* root,int& v){
+    int helper(TreeNode* root,int mi,int mx){
         if(root==NULL){
-            return;
+            return abs(mi-mx);
         }
-        int d=abs(v-root->val);
-        mx=max(mx,d);
-        helper(root->left,v);
-        helper(root->right,v);
+        mi=min(mi,root->val);
+        mx=max(mx,root->val);
+        int l=helper(root->left,mi,mx);
+        int r=helper(root->right,mi,mx);
+        return max(l,r);
     }
-    void inorder(TreeNode* root){
-        if(root==NULL){
-            return;
-        }
-        inorder(root->left);
-        helper(root->left,root->val);
-        inorder(root->right);
-        helper(root->right,root->val);
-    }
+    // void inorder(TreeNode* root){
+    //     if(root==NULL){
+    //         return;
+    //     }
+    //     inorder(root->left);
+    //     helper(root->left,root->val);
+    //     inorder(root->right);
+    //     helper(root->right,root->val);
+    // }
     int maxAncestorDiff(TreeNode* root) {
-        inorder(root);
-        return mx;
+        
+        return helper(root,root->val,root->val);
     }
 };
