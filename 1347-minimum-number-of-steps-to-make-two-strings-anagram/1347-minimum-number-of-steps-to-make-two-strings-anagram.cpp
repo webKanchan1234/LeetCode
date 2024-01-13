@@ -9,7 +9,7 @@ public:
         for(char c:t){
             freq[c-'a']--;
         }
-        for(int i=0;i<25;i++){
+        for(int i=0;i<26;i++){
             if(freq[i]>0){
                 cnt+=freq[i];
             }
