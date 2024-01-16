@@ -11,23 +11,24 @@
 class Solution {
 public:
     ListNode* deleteMiddle(ListNode* head) {
-        int cnt=0;
-        ListNode* curr=head;
-        while(curr!=NULL){
-            cnt++;
-            curr=curr->next;
-        }
-        if(cnt==1){
+        if(head==NULL || head->next==NULL){
             return NULL;
         }
-        curr=head;
-        
-        cnt=cnt/2-1;
-        while(cnt>0){
-            curr=curr->next;
-            cnt--;
+        ListNode* slow=head;
+        ListNode* fast=head->next;
+        ListNode* prev=NULL;
+        while(fast!=NULL){
+            prev=slow;
+            slow=slow->next;
+            fast=fast->next;
+            if(fast!=NULL){
+                fast=fast->next;
+            }
         }
-        curr->next=curr->next->next;
+        // cout<<fast->val<<slow->val;
+        prev->next=slow->next;
+        delete(slow);
+        
         return head;
     }
 };
