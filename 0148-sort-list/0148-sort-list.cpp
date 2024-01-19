@@ -11,16 +11,16 @@
 class Solution {
 public:
     ListNode* sortList(ListNode* head) {
-        vector<int>v;
+        priority_queue<int,vector<int>,greater<int>>q;
         ListNode* curr=head;
         while(curr!=NULL){
-            v.push_back(curr->val);
+            q.push(curr->val);
             curr=curr->next;
         }
-        sort(v.begin(),v.end());
         curr=head;
-        for(int i=0;i<v.size();i++){
-            curr->val=v[i];
+        while(!q.empty()){
+            curr->val=q.top();
+            q.pop();
             curr=curr->next;
         }
         return head;
