@@ -11,6 +11,9 @@
 class Solution {
 public:
     ListNode* oddEvenList(ListNode* head) {
+        if(head==NULL || head->next==NULL){
+            return head;
+        }
         ListNode* curr=head;
         vector<int>v;
         while(curr!=NULL && curr->next!=NULL){
@@ -20,7 +23,7 @@ public:
         if(curr){
             v.push_back(curr->val);
         }
-        
+
         curr=head->next;
         while(curr!=NULL && curr->next!=NULL){
             v.push_back(curr->val);
