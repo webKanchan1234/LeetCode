@@ -1,16 +1,21 @@
 class Solution {
 public:
     vector<int> singleNumber(vector<int>& nums) {
-        map<int,int>m;
+        
         vector<int>ans;
+        int xr=0;
+        int unique=0;
         for(auto x:nums){
-            m[x]++;
-        }
-        for(auto x:m){
-            if(x.second==1){
-                ans.push_back(x.first);
+            xr^=x;
+            if(xr==0){
+                unique=0;
+            }else{
+                unique=x;
             }
         }
+        ans.push_back(unique);
+        int v1=xr^unique;
+        ans.push_back(v1);
         return ans;
     }
 };
