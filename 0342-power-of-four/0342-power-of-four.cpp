@@ -1,11 +1,13 @@
 class Solution {
 public:
     bool isPowerOfFour(int n) {
-        for(int i=0;i<=sqrt(n);i++){
-            if(pow(4,i)==n){
-                return true;
-            }
+        if(n<=0){
+            return false;
         }
-        return false;
+        if((n&(n-1))==0 && (n-1)%3==0){
+            return true;
+        }else{
+            return false;
+        }
     }
 };
