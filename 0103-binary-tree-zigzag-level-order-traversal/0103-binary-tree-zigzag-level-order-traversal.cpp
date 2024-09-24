@@ -22,22 +22,17 @@ public:
         q.push(root);
         while(!q.empty()){
             int sz=q.size();
-            vector<int>v;
+            vector<int>v(sz);
             for (int i = 0; i < sz; i++) {
                 TreeNode* node = q.front();
                     q.pop();
-                    v.push_back(node->val);
-                    if (node->right) q.push(node->right);
+                    int idx = flag ? i : sz-i-1;
+                    v[idx]=node->val;
                     if (node->left) q.push(node->left);
+                    if (node->right) q.push(node->right);
             }
-            if(!flag){
-                ans.push_back(v);
-                flag=true;
-            }else{
-                reverse(v.begin(),v.end());
-                ans.push_back(v);
-                flag=false;
-            }
+            flag=!flag;
+            ans.push_back(v);
             
         }
         return ans;
