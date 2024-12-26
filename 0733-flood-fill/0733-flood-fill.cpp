@@ -1,26 +1,35 @@
 class Solution {
 public:
-    void helper(vector<vector<int>>& image, int r, int c,int prevColor, int color){
+    void bfs(vector<vector<int>>& image, int r, int c,int prevColor, int color){
 
         int n=image.size();
         int m=image[0].size();
-        if(image[r][c]!=prevColor){
-            return;
+        if(image[r][c]==prevColor){
+            image[r][c]=color;
         }
+        queue<pair<int,int>>q;
+        q.push({r,c});
+        while(!q.empty()){
+            int nr=q.front().first;
+            int nc=q.front().second;
+            q.pop();
 
-        image[r][c]=color;
-
-        if(r-1>=0){
-            helper(image,r-1,c,prevColor,color);
-        }
-        if(c+1<m){
-            helper(image,r,c+1,prevColor,color);
-        }
-        if(r+1<n){
-            helper(image,r+1,c,prevColor,color);
-        }
-        if(c-1>=0){
-            helper(image,r,c-1,prevColor,color);
+            if(nr-1>=0 && image[nr-1][nc]==prevColor){
+                image[nr-1][nc]=color;
+                q.push({nr-1,nc});
+            }
+            if(nc+1<m && image[nr][nc+1]==prevColor){
+                image[nr][nc+1]=color;
+                q.push({nr,nc+1});
+            }
+            if(nr+1<n && image[nr+1][nc]==prevColor){
+                image[nr+1][nc]=color;
+                q.push({nr+1,nc});
+            }
+            if(nc-1>=0 && image[nr][nc-1]==prevColor){
+                image[nr][nc-1]=color;
+                q.push({nr,nc-1});
+            }
         }
     }
     vector<vector<int>> floodFill(vector<vector<int>>& image, int sr, int sc, int color) {
@@ -28,7 +37,7 @@ public:
         if(prevColor==color){
             return image;
         }
-        helper(image,sr,sc,prevColor,color);
+        bfs(image,sr,sc,prevColor,color);
         return image;
     }
 };
