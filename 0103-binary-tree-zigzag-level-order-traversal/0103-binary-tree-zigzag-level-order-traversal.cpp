@@ -6,34 +6,47 @@
  *     TreeNode *right;
  *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
  *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
- *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+ *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left),
+ * right(right) {}
  * };
  */
 class Solution {
 public:
-    
-    vector<vector<int>> zigzagLevelOrder(TreeNode* root) {
-        queue<TreeNode*> q;
-        vector<vector<int>>ans;
-        int flag=true;
-        if(root==NULL){
-            return ans;
+    int height(TreeNode* root) {
+        if (root == NULL) {
+            return 0;
         }
-        q.push(root);
-        while(!q.empty()){
-            int sz=q.size();
-            vector<int>v(sz);
-            for (int i = 0; i < sz; i++) {
-                TreeNode* node = q.front();
-                    q.pop();
-                    int idx = flag ? i : sz-i-1;
-                    v[idx]=node->val;
-                    if (node->left) q.push(node->left);
-                    if (node->right) q.push(node->right);
-            }
-            flag=!flag;
+        int lh = height(root->left);
+        int rh = height(root->right);
+        return 1 + max(lh, rh);
+    }
+
+    void level(int lev, TreeNode* root, vector<int>& v, bool flag) {
+        if (root == NULL) {
+            return;
+        }
+        if (lev == 1) {
+            v.push_back(root->val);
+        }
+        if (flag) {
+            level(lev - 1, root->left, v,flag);
+            level(lev - 1, root->right, v,flag);
+        } else {
+            cout<<"regre";
+            level(lev - 1, root->right, v,flag);
+            level(lev - 1, root->left, v,flag);
+        }
+    }
+
+    vector<vector<int>> zigzagLevelOrder(TreeNode* root) {
+        int h = height(root);
+        vector<vector<int>> ans;
+        bool flag = true;
+        for (int i = 1; i <= h; i++) {
+            vector<int> v;
+            level(i, root, v, flag);
+            flag = !flag;
             ans.push_back(v);
-            
         }
         return ans;
     }
