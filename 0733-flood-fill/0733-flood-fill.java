@@ -5,33 +5,36 @@ class Solution {
         }
         return false;
     }
-    public void dfs(int[][] image, int i, int j, int n,int m,int currentcolor,int color){
-        image[i][j]=color;
-        if(isValid(image,i-1,j,n,m,currentcolor)){
-            dfs(image,i-1,j,n,m,currentcolor,color);
-        }
-
-        if(isValid(image,i+1,j,n,m,currentcolor)){
-            dfs(image,i+1,j,n,m,currentcolor,color);
-        }
-
-        if(isValid(image,i,j-1,n,m,currentcolor)){
-            dfs(image,i,j-1,n,m,currentcolor,color);
-        }
-
-        if(isValid(image,i,j+1,n,m,currentcolor)){
-            dfs(image,i,j+1,n,m,currentcolor,color);
-        }
-    }
+   
     public int[][] floodFill(int[][] image, int sr, int sc, int color) {
         int n=image.length;
         int m=image[0].length;
-        int currentcolor=image[sr][sc];
-        if(currentcolor==color){
+        Queue<int[]>q=new LinkedList<>();
+        q.offer(new int[]{sr,sc});
+        int curr=image[sr][sc];
+        image[sr][sc]=color;
+        
+        if(curr==color){
             return image;
         }
 
-        dfs(image,sr,sc,n,m,currentcolor,color);
+        int[] ax={-1,1,0,0};
+        int[] ay={0,0,1,-1};
+
+        while(!q.isEmpty()){
+            int[] cell=q.poll();
+
+            for(int i=0;i<4;i++){
+                int x=ax[i]+cell[0];
+                int y=ay[i]+cell[1];
+
+                if(isValid(image,x,y,n,m,curr)){
+                    image[x][y]=color;
+                    q.offer(new int[]{x,y});
+                }
+            }
+            
+        }
         return image;
     }
 }
