@@ -11,6 +11,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0055-jump-game](https://github.com/webKanchan1234/LeetCode/tree/main/0055-jump-game/) | Medium |
 | [0070-climbing-stairs](https://github.com/webKanchan1234/LeetCode/tree/main/0070-climbing-stairs/) | Easy |
 ## Memoization
 | Problem Name | Difficulty |
@@ -19,6 +20,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0055-jump-game](https://github.com/webKanchan1234/LeetCode/tree/main/0055-jump-game/) | Medium |
 | [1248-count-number-of-nice-subarrays](https://github.com/webKanchan1234/LeetCode/tree/main/1248-count-number-of-nice-subarrays/) | Medium |
 ## Hash Table
 | Problem Name | Difficulty |
@@ -32,4 +34,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1248-count-number-of-nice-subarrays](https://github.com/webKanchan1234/LeetCode/tree/main/1248-count-number-of-nice-subarrays/) | Medium |
+## Greedy
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0055-jump-game](https://github.com/webKanchan1234/LeetCode/tree/main/0055-jump-game/) | Medium |
 <!---LeetCode Topics End-->
