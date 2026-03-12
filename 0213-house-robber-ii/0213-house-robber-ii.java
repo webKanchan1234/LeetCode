@@ -1,34 +1,34 @@
 class Solution {
 
-    public int helper(int[] nums,int s,int n,int[] dp){
-        if(n<s){
-            return 0;
-        }
-        if(n==s){
-            return nums[n];
-        }
-        
-        if(dp[n]!=-1){
-            return dp[n];
-        }
 
-        int pick=nums[n] + helper(nums,s,n-2,dp);
-        int notpic=helper(nums,s,n-1,dp);
-
-        return dp[n]=Math.max(pick,notpic);
-    }
     public int rob(int[] nums) {
         int n=nums.length;
         if(n==1){
             return nums[0];
         }
+        if(n==2){
+            return Math.max(nums[0],nums[1]);
+        }
+
         int[] dp=new int[n];
         int[] dp1=new int[n];
-        Arrays.fill(dp,-1);
-        Arrays.fill(dp1,-1);
-        int case1=helper(nums,0,n-2,dp);
-        int case2=helper(nums,1,n-1,dp1);
 
-        return Math.max(case1,case2);
+        dp[0]=nums[0];
+        dp[1]=Math.max(nums[0],nums[1]);
+
+        dp1[1]=nums[1];
+        dp1[2]=Math.max(nums[2],nums[1]);
+
+        for(int i=2;i<=n-2;i++){
+            dp[i]=Math.max(nums[i]+dp[i-2],dp[i-1]);
+        }
+
+        for(int i=3;i<=n-1;i++){
+            dp1[i]=Math.max(nums[i]+dp1[i-2],dp1[i-1]);
+        }
+
+        
+
+        return Math.max(dp[n-2],dp1[n-1]);
     }
 }
