@@ -16,6 +16,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0213-house-robber-ii](https://github.com/webKanchan1234/LeetCode/tree/main/0213-house-robber-ii/) | Medium |
 | [0322-coin-change](https://github.com/webKanchan1234/LeetCode/tree/main/0322-coin-change/) | Medium |
 | [0494-target-sum](https://github.com/webKanchan1234/LeetCode/tree/main/0494-target-sum/) | Medium |
+| [0516-longest-palindromic-subsequence](https://github.com/webKanchan1234/LeetCode/tree/main/0516-longest-palindromic-subsequence/) | Medium |
 | [0518-coin-change-ii](https://github.com/webKanchan1234/LeetCode/tree/main/0518-coin-change-ii/) | Medium |
 | [0678-valid-parenthesis-string](https://github.com/webKanchan1234/LeetCode/tree/main/0678-valid-parenthesis-string/) | Medium |
 ## Memoization
@@ -56,6 +57,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0516-longest-palindromic-subsequence](https://github.com/webKanchan1234/LeetCode/tree/main/0516-longest-palindromic-subsequence/) | Medium |
 | [0678-valid-parenthesis-string](https://github.com/webKanchan1234/LeetCode/tree/main/0678-valid-parenthesis-string/) | Medium |
 ## Stack
 | Problem Name | Difficulty |
