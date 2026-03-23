@@ -38,6 +38,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0518-coin-change-ii](https://github.com/webKanchan1234/LeetCode/tree/main/0518-coin-change-ii/) | Medium |
 | [0904-fruit-into-baskets](https://github.com/webKanchan1234/LeetCode/tree/main/0904-fruit-into-baskets/) | Medium |
 | [1248-count-number-of-nice-subarrays](https://github.com/webKanchan1234/LeetCode/tree/main/1248-count-number-of-nice-subarrays/) | Medium |
+| [1752-check-if-array-is-sorted-and-rotated](https://github.com/webKanchan1234/LeetCode/tree/main/1752-check-if-array-is-sorted-and-rotated/) | Easy |
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
