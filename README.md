@@ -34,6 +34,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/webKanchan1234/LeetCode/tree/main/0026-remove-duplicates-from-sorted-array/) | Easy |
 | [0053-maximum-subarray](https://github.com/webKanchan1234/LeetCode/tree/main/0053-maximum-subarray/) | Medium |
+| [0054-spiral-matrix](https://github.com/webKanchan1234/LeetCode/tree/main/0054-spiral-matrix/) | Medium |
 | [0055-jump-game](https://github.com/webKanchan1234/LeetCode/tree/main/0055-jump-game/) | Medium |
 | [0057-insert-interval](https://github.com/webKanchan1234/LeetCode/tree/main/0057-insert-interval/) | Medium |
 | [0073-set-matrix-zeroes](https://github.com/webKanchan1234/LeetCode/tree/main/0073-set-matrix-zeroes/) | Medium |
@@ -121,5 +122,10 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Matrix
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0054-spiral-matrix](https://github.com/webKanchan1234/LeetCode/tree/main/0054-spiral-matrix/) | Medium |
 | [0073-set-matrix-zeroes](https://github.com/webKanchan1234/LeetCode/tree/main/0073-set-matrix-zeroes/) | Medium |
+## Simulation
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0054-spiral-matrix](https://github.com/webKanchan1234/LeetCode/tree/main/0054-spiral-matrix/) | Medium |
 <!---LeetCode Topics End-->
