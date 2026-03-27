@@ -36,6 +36,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0053-maximum-subarray](https://github.com/webKanchan1234/LeetCode/tree/main/0053-maximum-subarray/) | Medium |
 | [0055-jump-game](https://github.com/webKanchan1234/LeetCode/tree/main/0055-jump-game/) | Medium |
 | [0057-insert-interval](https://github.com/webKanchan1234/LeetCode/tree/main/0057-insert-interval/) | Medium |
+| [0073-set-matrix-zeroes](https://github.com/webKanchan1234/LeetCode/tree/main/0073-set-matrix-zeroes/) | Medium |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/webKanchan1234/LeetCode/tree/main/0122-best-time-to-buy-and-sell-stock-ii/) | Medium |
 | [0189-rotate-array](https://github.com/webKanchan1234/LeetCode/tree/main/0189-rotate-array/) | Medium |
 | [0213-house-robber-ii](https://github.com/webKanchan1234/LeetCode/tree/main/0213-house-robber-ii/) | Medium |
@@ -50,6 +51,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0073-set-matrix-zeroes](https://github.com/webKanchan1234/LeetCode/tree/main/0073-set-matrix-zeroes/) | Medium |
 | [0904-fruit-into-baskets](https://github.com/webKanchan1234/LeetCode/tree/main/0904-fruit-into-baskets/) | Medium |
 | [1248-count-number-of-nice-subarrays](https://github.com/webKanchan1234/LeetCode/tree/main/1248-count-number-of-nice-subarrays/) | Medium |
 ## Sliding Window
@@ -116,4 +118,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0053-maximum-subarray](https://github.com/webKanchan1234/LeetCode/tree/main/0053-maximum-subarray/) | Medium |
+## Matrix
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0073-set-matrix-zeroes](https://github.com/webKanchan1234/LeetCode/tree/main/0073-set-matrix-zeroes/) | Medium |
 <!---LeetCode Topics End-->
