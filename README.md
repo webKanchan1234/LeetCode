@@ -19,6 +19,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0115-distinct-subsequences](https://github.com/webKanchan1234/LeetCode/tree/main/0115-distinct-subsequences/) | Hard |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/webKanchan1234/LeetCode/tree/main/0122-best-time-to-buy-and-sell-stock-ii/) | Medium |
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/webKanchan1234/LeetCode/tree/main/0123-best-time-to-buy-and-sell-stock-iii/) | Hard |
+| [0152-maximum-product-subarray](https://github.com/webKanchan1234/LeetCode/tree/main/0152-maximum-product-subarray/) | Medium |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/webKanchan1234/LeetCode/tree/main/0188-best-time-to-buy-and-sell-stock-iv/) | Hard |
 | [0213-house-robber-ii](https://github.com/webKanchan1234/LeetCode/tree/main/0213-house-robber-ii/) | Medium |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/webKanchan1234/LeetCode/tree/main/0309-best-time-to-buy-and-sell-stock-with-cooldown/) | Medium |
@@ -44,6 +45,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0073-set-matrix-zeroes](https://github.com/webKanchan1234/LeetCode/tree/main/0073-set-matrix-zeroes/) | Medium |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/webKanchan1234/LeetCode/tree/main/0122-best-time-to-buy-and-sell-stock-ii/) | Medium |
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/webKanchan1234/LeetCode/tree/main/0123-best-time-to-buy-and-sell-stock-iii/) | Hard |
+| [0152-maximum-product-subarray](https://github.com/webKanchan1234/LeetCode/tree/main/0152-maximum-product-subarray/) | Medium |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/webKanchan1234/LeetCode/tree/main/0188-best-time-to-buy-and-sell-stock-iv/) | Hard |
 | [0189-rotate-array](https://github.com/webKanchan1234/LeetCode/tree/main/0189-rotate-array/) | Medium |
 | [0213-house-robber-ii](https://github.com/webKanchan1234/LeetCode/tree/main/0213-house-robber-ii/) | Medium |
