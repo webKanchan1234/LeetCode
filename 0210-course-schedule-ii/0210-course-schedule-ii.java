@@ -1,21 +1,19 @@
 class Solution {
     public int[] findOrder(int numCourses, int[][] prerequisites) {
-        List<List<Integer>> adj=new ArrayList<>();
-        for(int i=0;i<numCourses;i++){
-            adj.add(new ArrayList<>());
+        int n=numCourses;
+        List<List<Integer>> graph=new ArrayList<>();
+        for(int i=0;i<n;i++){
+            graph.add(new ArrayList<>());
         }
 
         int[] indeg=new int[numCourses];
 
         for(int[] pre:prerequisites){
-            int c=pre[0];
-            int r=pre[1];
-            adj.get(r).add(c);
-            indeg[c]++;
+            graph.get(pre[1]).add(pre[0]);
+            indeg[pre[0]]++;
         }
 
         Queue<Integer>q=new LinkedList<>();
-
         for(int i=0;i<numCourses;i++){
             if(indeg[i]==0){
                 q.offer(i);
@@ -23,21 +21,24 @@ class Solution {
         }
 
         int[] ans=new int[numCourses];
-        int i=0;
+        int idx=0;
 
         while(!q.isEmpty()){
-            int curr=q.poll();
-            ans[i]=curr;
-            i++;
+            int node=q.poll();
+            ans[idx++]=node;
 
-            for(int next : adj.get(curr)){
-                indeg[next]--;
-                if(indeg[next]==0){
-                    q.offer(next);
+            for(int nxt : graph.get(node)){
+                indeg[nxt]--;
+                if(indeg[nxt]==0){
+                    q.offer(nxt);
                 }
             }
         }
 
-        return i == numCourses ? ans : new int[0];
+        if(idx!=numCourses){
+            return new int[0];
+        }
+
+        return ans;
     }
 }
