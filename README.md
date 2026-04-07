@@ -65,6 +65,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0542-01-matrix](https://github.com/webKanchan1234/LeetCode/tree/main/0542-01-matrix/) | Medium |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/webKanchan1234/LeetCode/tree/main/0714-best-time-to-buy-and-sell-stock-with-transaction-fee/) | Medium |
 | [0733-flood-fill](https://github.com/webKanchan1234/LeetCode/tree/main/0733-flood-fill/) | Easy |
+| [0875-koko-eating-bananas](https://github.com/webKanchan1234/LeetCode/tree/main/0875-koko-eating-bananas/) | Medium |
 | [0904-fruit-into-baskets](https://github.com/webKanchan1234/LeetCode/tree/main/0904-fruit-into-baskets/) | Medium |
 | [1020-number-of-enclaves](https://github.com/webKanchan1234/LeetCode/tree/main/1020-number-of-enclaves/) | Medium |
 | [1091-shortest-path-in-binary-matrix](https://github.com/webKanchan1234/LeetCode/tree/main/1091-shortest-path-in-binary-matrix/) | Medium |
@@ -209,6 +210,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/webKanchan1234/LeetCode/tree/main/0153-find-minimum-in-rotated-sorted-array/) | Medium |
+| [0875-koko-eating-bananas](https://github.com/webKanchan1234/LeetCode/tree/main/0875-koko-eating-bananas/) | Medium |
 | [1631-path-with-minimum-effort](https://github.com/webKanchan1234/LeetCode/tree/main/1631-path-with-minimum-effort/) | Medium |
 ## Heap (Priority Queue)
 | Problem Name | Difficulty |
