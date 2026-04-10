@@ -80,6 +80,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0073-set-matrix-zeroes](https://github.com/webKanchan1234/LeetCode/tree/main/0073-set-matrix-zeroes/) | Medium |
 | [0127-word-ladder](https://github.com/webKanchan1234/LeetCode/tree/main/0127-word-ladder/) | Hard |
 | [0904-fruit-into-baskets](https://github.com/webKanchan1234/LeetCode/tree/main/0904-fruit-into-baskets/) | Medium |
+| [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/webKanchan1234/LeetCode/tree/main/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
 | [1248-count-number-of-nice-subarrays](https://github.com/webKanchan1234/LeetCode/tree/main/1248-count-number-of-nice-subarrays/) | Medium |
 ## Sliding Window
 | Problem Name | Difficulty |
@@ -122,6 +123,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0455-assign-cookies](https://github.com/webKanchan1234/LeetCode/tree/main/0455-assign-cookies/) | Easy |
+| [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/webKanchan1234/LeetCode/tree/main/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
 ## Breadth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -138,6 +140,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0785-is-graph-bipartite](https://github.com/webKanchan1234/LeetCode/tree/main/0785-is-graph-bipartite/) | Medium |
 | [0787-cheapest-flights-within-k-stops](https://github.com/webKanchan1234/LeetCode/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
 | [0802-find-eventual-safe-states](https://github.com/webKanchan1234/LeetCode/tree/main/0802-find-eventual-safe-states/) | Medium |
+| [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/webKanchan1234/LeetCode/tree/main/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
 | [1020-number-of-enclaves](https://github.com/webKanchan1234/LeetCode/tree/main/1020-number-of-enclaves/) | Medium |
 | [1091-shortest-path-in-binary-matrix](https://github.com/webKanchan1234/LeetCode/tree/main/1091-shortest-path-in-binary-matrix/) | Medium |
 | [1631-path-with-minimum-effort](https://github.com/webKanchan1234/LeetCode/tree/main/1631-path-with-minimum-effort/) | Medium |
@@ -160,6 +163,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0785-is-graph-bipartite](https://github.com/webKanchan1234/LeetCode/tree/main/0785-is-graph-bipartite/) | Medium |
 | [0787-cheapest-flights-within-k-stops](https://github.com/webKanchan1234/LeetCode/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
 | [0802-find-eventual-safe-states](https://github.com/webKanchan1234/LeetCode/tree/main/0802-find-eventual-safe-states/) | Medium |
+| [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/webKanchan1234/LeetCode/tree/main/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
 | [1020-number-of-enclaves](https://github.com/webKanchan1234/LeetCode/tree/main/1020-number-of-enclaves/) | Medium |
 | [1631-path-with-minimum-effort](https://github.com/webKanchan1234/LeetCode/tree/main/1631-path-with-minimum-effort/) | Medium |
 ## Union-Find
@@ -235,9 +239,11 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0110-balanced-binary-tree](https://github.com/webKanchan1234/LeetCode/tree/main/0110-balanced-binary-tree/) | Easy |
 | [0124-binary-tree-maximum-path-sum](https://github.com/webKanchan1234/LeetCode/tree/main/0124-binary-tree-maximum-path-sum/) | Hard |
+| [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/webKanchan1234/LeetCode/tree/main/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
 ## Binary Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0110-balanced-binary-tree](https://github.com/webKanchan1234/LeetCode/tree/main/0110-balanced-binary-tree/) | Easy |
 | [0124-binary-tree-maximum-path-sum](https://github.com/webKanchan1234/LeetCode/tree/main/0124-binary-tree-maximum-path-sum/) | Hard |
+| [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/webKanchan1234/LeetCode/tree/main/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
 <!---LeetCode Topics End-->
