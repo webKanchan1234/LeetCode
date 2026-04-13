@@ -110,6 +110,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0072-edit-distance](https://github.com/webKanchan1234/LeetCode/tree/main/0072-edit-distance/) | Medium |
 | [0115-distinct-subsequences](https://github.com/webKanchan1234/LeetCode/tree/main/0115-distinct-subsequences/) | Hard |
 | [0127-word-ladder](https://github.com/webKanchan1234/LeetCode/tree/main/0127-word-ladder/) | Hard |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/webKanchan1234/LeetCode/tree/main/0297-serialize-and-deserialize-binary-tree/) | Hard |
 | [0516-longest-palindromic-subsequence](https://github.com/webKanchan1234/LeetCode/tree/main/0516-longest-palindromic-subsequence/) | Medium |
 | [0678-valid-parenthesis-string](https://github.com/webKanchan1234/LeetCode/tree/main/0678-valid-parenthesis-string/) | Medium |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/webKanchan1234/LeetCode/tree/main/1312-minimum-insertion-steps-to-make-a-string-palindrome/) | Hard |
@@ -138,6 +139,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0200-number-of-islands](https://github.com/webKanchan1234/LeetCode/tree/main/0200-number-of-islands/) | Medium |
 | [0207-course-schedule](https://github.com/webKanchan1234/LeetCode/tree/main/0207-course-schedule/) | Medium |
 | [0210-course-schedule-ii](https://github.com/webKanchan1234/LeetCode/tree/main/0210-course-schedule-ii/) | Medium |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/webKanchan1234/LeetCode/tree/main/0297-serialize-and-deserialize-binary-tree/) | Hard |
 | [0322-coin-change](https://github.com/webKanchan1234/LeetCode/tree/main/0322-coin-change/) | Medium |
 | [0542-01-matrix](https://github.com/webKanchan1234/LeetCode/tree/main/0542-01-matrix/) | Medium |
 | [0547-number-of-provinces](https://github.com/webKanchan1234/LeetCode/tree/main/0547-number-of-provinces/) | Medium |
@@ -166,6 +168,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0207-course-schedule](https://github.com/webKanchan1234/LeetCode/tree/main/0207-course-schedule/) | Medium |
 | [0210-course-schedule-ii](https://github.com/webKanchan1234/LeetCode/tree/main/0210-course-schedule-ii/) | Medium |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/webKanchan1234/LeetCode/tree/main/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/webKanchan1234/LeetCode/tree/main/0297-serialize-and-deserialize-binary-tree/) | Hard |
 | [0547-number-of-provinces](https://github.com/webKanchan1234/LeetCode/tree/main/0547-number-of-provinces/) | Medium |
 | [0733-flood-fill](https://github.com/webKanchan1234/LeetCode/tree/main/0733-flood-fill/) | Easy |
 | [0743-network-delay-time](https://github.com/webKanchan1234/LeetCode/tree/main/0743-network-delay-time/) | Medium |
@@ -257,6 +260,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0199-binary-tree-right-side-view](https://github.com/webKanchan1234/LeetCode/tree/main/0199-binary-tree-right-side-view/) | Medium |
 | [0222-count-complete-tree-nodes](https://github.com/webKanchan1234/LeetCode/tree/main/0222-count-complete-tree-nodes/) | Easy |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/webKanchan1234/LeetCode/tree/main/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/webKanchan1234/LeetCode/tree/main/0297-serialize-and-deserialize-binary-tree/) | Hard |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/webKanchan1234/LeetCode/tree/main/0863-all-nodes-distance-k-in-binary-tree/) | Medium |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/webKanchan1234/LeetCode/tree/main/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
 ## Binary Tree
@@ -269,10 +273,15 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0199-binary-tree-right-side-view](https://github.com/webKanchan1234/LeetCode/tree/main/0199-binary-tree-right-side-view/) | Medium |
 | [0222-count-complete-tree-nodes](https://github.com/webKanchan1234/LeetCode/tree/main/0222-count-complete-tree-nodes/) | Easy |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/webKanchan1234/LeetCode/tree/main/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/webKanchan1234/LeetCode/tree/main/0297-serialize-and-deserialize-binary-tree/) | Hard |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/webKanchan1234/LeetCode/tree/main/0863-all-nodes-distance-k-in-binary-tree/) | Medium |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/webKanchan1234/LeetCode/tree/main/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
 ## Bit Manipulation
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0222-count-complete-tree-nodes](https://github.com/webKanchan1234/LeetCode/tree/main/0222-count-complete-tree-nodes/) | Easy |
+## Design
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/webKanchan1234/LeetCode/tree/main/0297-serialize-and-deserialize-binary-tree/) | Hard |
 <!---LeetCode Topics End-->
