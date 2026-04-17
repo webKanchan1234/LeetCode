@@ -120,6 +120,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/webKanchan1234/LeetCode/tree/main/0297-serialize-and-deserialize-binary-tree/) | Hard |
 | [0516-longest-palindromic-subsequence](https://github.com/webKanchan1234/LeetCode/tree/main/0516-longest-palindromic-subsequence/) | Medium |
 | [0678-valid-parenthesis-string](https://github.com/webKanchan1234/LeetCode/tree/main/0678-valid-parenthesis-string/) | Medium |
+| [1021-remove-outermost-parentheses](https://github.com/webKanchan1234/LeetCode/tree/main/1021-remove-outermost-parentheses/) | Easy |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/webKanchan1234/LeetCode/tree/main/1312-minimum-insertion-steps-to-make-a-string-palindrome/) | Hard |
 ## Stack
 | Problem Name | Difficulty |
@@ -127,6 +128,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/webKanchan1234/LeetCode/tree/main/0114-flatten-binary-tree-to-linked-list/) | Medium |
 | [0678-valid-parenthesis-string](https://github.com/webKanchan1234/LeetCode/tree/main/0678-valid-parenthesis-string/) | Medium |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/webKanchan1234/LeetCode/tree/main/1008-construct-binary-search-tree-from-preorder-traversal/) | Medium |
+| [1021-remove-outermost-parentheses](https://github.com/webKanchan1234/LeetCode/tree/main/1021-remove-outermost-parentheses/) | Easy |
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
