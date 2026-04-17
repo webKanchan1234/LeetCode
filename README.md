@@ -61,6 +61,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0189-rotate-array](https://github.com/webKanchan1234/LeetCode/tree/main/0189-rotate-array/) | Medium |
 | [0200-number-of-islands](https://github.com/webKanchan1234/LeetCode/tree/main/0200-number-of-islands/) | Medium |
 | [0213-house-robber-ii](https://github.com/webKanchan1234/LeetCode/tree/main/0213-house-robber-ii/) | Medium |
+| [0240-search-a-2d-matrix-ii](https://github.com/webKanchan1234/LeetCode/tree/main/0240-search-a-2d-matrix-ii/) | Medium |
 | [0283-move-zeroes](https://github.com/webKanchan1234/LeetCode/tree/main/0283-move-zeroes/) | Easy |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/webKanchan1234/LeetCode/tree/main/0309-best-time-to-buy-and-sell-stock-with-cooldown/) | Medium |
 | [0322-coin-change](https://github.com/webKanchan1234/LeetCode/tree/main/0322-coin-change/) | Medium |
@@ -218,6 +219,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0053-maximum-subarray](https://github.com/webKanchan1234/LeetCode/tree/main/0053-maximum-subarray/) | Medium |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/webKanchan1234/LeetCode/tree/main/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/webKanchan1234/LeetCode/tree/main/0106-construct-binary-tree-from-inorder-and-postorder-traversal/) | Medium |
+| [0240-search-a-2d-matrix-ii](https://github.com/webKanchan1234/LeetCode/tree/main/0240-search-a-2d-matrix-ii/) | Medium |
 ## Matrix
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -226,6 +228,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0074-search-a-2d-matrix](https://github.com/webKanchan1234/LeetCode/tree/main/0074-search-a-2d-matrix/) | Medium |
 | [0130-surrounded-regions](https://github.com/webKanchan1234/LeetCode/tree/main/0130-surrounded-regions/) | Medium |
 | [0200-number-of-islands](https://github.com/webKanchan1234/LeetCode/tree/main/0200-number-of-islands/) | Medium |
+| [0240-search-a-2d-matrix-ii](https://github.com/webKanchan1234/LeetCode/tree/main/0240-search-a-2d-matrix-ii/) | Medium |
 | [0542-01-matrix](https://github.com/webKanchan1234/LeetCode/tree/main/0542-01-matrix/) | Medium |
 | [0733-flood-fill](https://github.com/webKanchan1234/LeetCode/tree/main/0733-flood-fill/) | Easy |
 | [1020-number-of-enclaves](https://github.com/webKanchan1234/LeetCode/tree/main/1020-number-of-enclaves/) | Medium |
@@ -248,6 +251,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0074-search-a-2d-matrix](https://github.com/webKanchan1234/LeetCode/tree/main/0074-search-a-2d-matrix/) | Medium |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/webKanchan1234/LeetCode/tree/main/0153-find-minimum-in-rotated-sorted-array/) | Medium |
 | [0222-count-complete-tree-nodes](https://github.com/webKanchan1234/LeetCode/tree/main/0222-count-complete-tree-nodes/) | Easy |
+| [0240-search-a-2d-matrix-ii](https://github.com/webKanchan1234/LeetCode/tree/main/0240-search-a-2d-matrix-ii/) | Medium |
 | [0410-split-array-largest-sum](https://github.com/webKanchan1234/LeetCode/tree/main/0410-split-array-largest-sum/) | Hard |
 | [0875-koko-eating-bananas](https://github.com/webKanchan1234/LeetCode/tree/main/0875-koko-eating-bananas/) | Medium |
 | [1283-find-the-smallest-divisor-given-a-threshold](https://github.com/webKanchan1234/LeetCode/tree/main/1283-find-the-smallest-divisor-given-a-threshold/) | Medium |
