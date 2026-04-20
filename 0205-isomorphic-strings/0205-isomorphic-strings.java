@@ -11,8 +11,8 @@ class Solution {
                 return false;
             }
 
-            st[s.charAt(i)]++;
-            ts[t.charAt(i)]++;
+            st[s.charAt(i)]=i+1;
+            ts[t.charAt(i)]=i+1;
         }
 
         return true;
