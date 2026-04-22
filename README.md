@@ -89,6 +89,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/webKanchan1234/LeetCode/tree/main/0106-construct-binary-tree-from-inorder-and-postorder-traversal/) | Medium |
 | [0127-word-ladder](https://github.com/webKanchan1234/LeetCode/tree/main/0127-word-ladder/) | Hard |
 | [0205-isomorphic-strings](https://github.com/webKanchan1234/LeetCode/tree/main/0205-isomorphic-strings/) | Easy |
+| [0451-sort-characters-by-frequency](https://github.com/webKanchan1234/LeetCode/tree/main/0451-sort-characters-by-frequency/) | Medium |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/webKanchan1234/LeetCode/tree/main/0863-all-nodes-distance-k-in-binary-tree/) | Medium |
 | [0904-fruit-into-baskets](https://github.com/webKanchan1234/LeetCode/tree/main/0904-fruit-into-baskets/) | Medium |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/webKanchan1234/LeetCode/tree/main/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
@@ -121,6 +122,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0151-reverse-words-in-a-string](https://github.com/webKanchan1234/LeetCode/tree/main/0151-reverse-words-in-a-string/) | Medium |
 | [0205-isomorphic-strings](https://github.com/webKanchan1234/LeetCode/tree/main/0205-isomorphic-strings/) | Easy |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/webKanchan1234/LeetCode/tree/main/0297-serialize-and-deserialize-binary-tree/) | Hard |
+| [0451-sort-characters-by-frequency](https://github.com/webKanchan1234/LeetCode/tree/main/0451-sort-characters-by-frequency/) | Medium |
 | [0516-longest-palindromic-subsequence](https://github.com/webKanchan1234/LeetCode/tree/main/0516-longest-palindromic-subsequence/) | Medium |
 | [0678-valid-parenthesis-string](https://github.com/webKanchan1234/LeetCode/tree/main/0678-valid-parenthesis-string/) | Medium |
 | [1021-remove-outermost-parentheses](https://github.com/webKanchan1234/LeetCode/tree/main/1021-remove-outermost-parentheses/) | Easy |
@@ -143,6 +145,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0451-sort-characters-by-frequency](https://github.com/webKanchan1234/LeetCode/tree/main/0451-sort-characters-by-frequency/) | Medium |
 | [0455-assign-cookies](https://github.com/webKanchan1234/LeetCode/tree/main/0455-assign-cookies/) | Easy |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/webKanchan1234/LeetCode/tree/main/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
 ## Breadth-First Search
@@ -265,6 +268,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Heap (Priority Queue)
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0451-sort-characters-by-frequency](https://github.com/webKanchan1234/LeetCode/tree/main/0451-sort-characters-by-frequency/) | Medium |
 | [0743-network-delay-time](https://github.com/webKanchan1234/LeetCode/tree/main/0743-network-delay-time/) | Medium |
 | [0787-cheapest-flights-within-k-stops](https://github.com/webKanchan1234/LeetCode/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
 | [1631-path-with-minimum-effort](https://github.com/webKanchan1234/LeetCode/tree/main/1631-path-with-minimum-effort/) | Medium |
@@ -340,4 +344,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/webKanchan1234/LeetCode/tree/main/1008-construct-binary-search-tree-from-preorder-traversal/) | Medium |
+## Bucket Sort
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0451-sort-characters-by-frequency](https://github.com/webKanchan1234/LeetCode/tree/main/0451-sort-characters-by-frequency/) | Medium |
+## Counting
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0451-sort-characters-by-frequency](https://github.com/webKanchan1234/LeetCode/tree/main/0451-sort-characters-by-frequency/) | Medium |
 <!---LeetCode Topics End-->
