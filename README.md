@@ -57,6 +57,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/webKanchan1234/LeetCode/tree/main/0122-best-time-to-buy-and-sell-stock-ii/) | Medium |
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/webKanchan1234/LeetCode/tree/main/0123-best-time-to-buy-and-sell-stock-iii/) | Hard |
 | [0130-surrounded-regions](https://github.com/webKanchan1234/LeetCode/tree/main/0130-surrounded-regions/) | Medium |
+| [0135-candy](https://github.com/webKanchan1234/LeetCode/tree/main/0135-candy/) | Hard |
 | [0152-maximum-product-subarray](https://github.com/webKanchan1234/LeetCode/tree/main/0152-maximum-product-subarray/) | Medium |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/webKanchan1234/LeetCode/tree/main/0153-find-minimum-in-rotated-sorted-array/) | Medium |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/webKanchan1234/LeetCode/tree/main/0188-best-time-to-buy-and-sell-stock-iv/) | Hard |
@@ -112,6 +113,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0045-jump-game-ii](https://github.com/webKanchan1234/LeetCode/tree/main/0045-jump-game-ii/) | Medium |
 | [0055-jump-game](https://github.com/webKanchan1234/LeetCode/tree/main/0055-jump-game/) | Medium |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/webKanchan1234/LeetCode/tree/main/0122-best-time-to-buy-and-sell-stock-ii/) | Medium |
+| [0135-candy](https://github.com/webKanchan1234/LeetCode/tree/main/0135-candy/) | Hard |
 | [0410-split-array-largest-sum](https://github.com/webKanchan1234/LeetCode/tree/main/0410-split-array-largest-sum/) | Hard |
 | [0455-assign-cookies](https://github.com/webKanchan1234/LeetCode/tree/main/0455-assign-cookies/) | Easy |
 | [0678-valid-parenthesis-string](https://github.com/webKanchan1234/LeetCode/tree/main/0678-valid-parenthesis-string/) | Medium |
