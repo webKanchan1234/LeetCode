@@ -349,6 +349,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/webKanchan1234/LeetCode/tree/main/0114-flatten-binary-tree-to-linked-list/) | Medium |
+| [0237-delete-node-in-a-linked-list](https://github.com/webKanchan1234/LeetCode/tree/main/0237-delete-node-in-a-linked-list/) | Medium |
 ## Binary Search Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
