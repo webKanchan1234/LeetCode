@@ -148,6 +148,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/webKanchan1234/LeetCode/tree/main/0114-flatten-binary-tree-to-linked-list/) | Medium |
+| [0234-palindrome-linked-list](https://github.com/webKanchan1234/LeetCode/tree/main/0234-palindrome-linked-list/) | Easy |
 | [0678-valid-parenthesis-string](https://github.com/webKanchan1234/LeetCode/tree/main/0678-valid-parenthesis-string/) | Medium |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/webKanchan1234/LeetCode/tree/main/1008-construct-binary-search-tree-from-preorder-traversal/) | Medium |
 | [1021-remove-outermost-parentheses](https://github.com/webKanchan1234/LeetCode/tree/main/1021-remove-outermost-parentheses/) | Easy |
@@ -161,6 +162,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0142-linked-list-cycle-ii](https://github.com/webKanchan1234/LeetCode/tree/main/0142-linked-list-cycle-ii/) | Medium |
 | [0151-reverse-words-in-a-string](https://github.com/webKanchan1234/LeetCode/tree/main/0151-reverse-words-in-a-string/) | Medium |
 | [0189-rotate-array](https://github.com/webKanchan1234/LeetCode/tree/main/0189-rotate-array/) | Medium |
+| [0234-palindrome-linked-list](https://github.com/webKanchan1234/LeetCode/tree/main/0234-palindrome-linked-list/) | Easy |
 | [0283-move-zeroes](https://github.com/webKanchan1234/LeetCode/tree/main/0283-move-zeroes/) | Easy |
 | [0455-assign-cookies](https://github.com/webKanchan1234/LeetCode/tree/main/0455-assign-cookies/) | Easy |
 | [0876-middle-of-the-linked-list](https://github.com/webKanchan1234/LeetCode/tree/main/0876-middle-of-the-linked-list/) | Easy |
@@ -357,6 +359,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0141-linked-list-cycle](https://github.com/webKanchan1234/LeetCode/tree/main/0141-linked-list-cycle/) | Easy |
 | [0142-linked-list-cycle-ii](https://github.com/webKanchan1234/LeetCode/tree/main/0142-linked-list-cycle-ii/) | Medium |
 | [0206-reverse-linked-list](https://github.com/webKanchan1234/LeetCode/tree/main/0206-reverse-linked-list/) | Easy |
+| [0234-palindrome-linked-list](https://github.com/webKanchan1234/LeetCode/tree/main/0234-palindrome-linked-list/) | Easy |
 | [0237-delete-node-in-a-linked-list](https://github.com/webKanchan1234/LeetCode/tree/main/0237-delete-node-in-a-linked-list/) | Medium |
 | [0876-middle-of-the-linked-list](https://github.com/webKanchan1234/LeetCode/tree/main/0876-middle-of-the-linked-list/) | Easy |
 ## Binary Search Tree
@@ -384,4 +387,5 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0206-reverse-linked-list](https://github.com/webKanchan1234/LeetCode/tree/main/0206-reverse-linked-list/) | Easy |
+| [0234-palindrome-linked-list](https://github.com/webKanchan1234/LeetCode/tree/main/0234-palindrome-linked-list/) | Easy |
 <!---LeetCode Topics End-->
