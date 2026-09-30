@@ -1,40 +1,55 @@
 class Solution {
-    public void dfs(int r,int c,int[][] grid){
-        int n=grid.length;
-        int m=grid[0].length;
 
-        if(r<0 || r>=n || c<0 || c>=m || grid[r][c]==0){
+    public void dfs(int[][] grid,int r,int c){
+        if(r<0 | c<0 || r>=grid.length || c>=grid[0].length){
+            return;
+        }
+
+        if(grid[r][c]==0){
             return;
         }
 
         grid[r][c]=0;
-        dfs(r-1,c,grid);
-        dfs(r,c+1,grid);
-        dfs(r+1,c,grid);
-        dfs(r,c-1,grid);
+
+        dfs(grid,r-1,c);
+        dfs(grid,r,c+1);
+        dfs(grid,r+1,c);
+        dfs(grid,r,c-1);
     }
     public int numEnclaves(int[][] grid) {
-        int n=grid.length;
-        int m=grid[0].length;
-
-        for(int i=0;i<n;i++){
-            dfs(i,0,grid);
-            dfs(i,m-1,grid);
-        }
-
-        for(int i=0;i<m;i++){
-            dfs(0,i,grid);
-            dfs(n-1,i,grid);
-        }
+        int r=grid.length;
+        int c=grid[0].length;
 
         int cnt=0;
-        for(int i=0;i<n;i++){
-            for(int j=0;j<m;j++){
+
+        for(int i=0;i<c;i++){
+            if(grid[0][i]==1){
+                dfs(grid,0,i);
+            }
+
+            if(grid[r-1][i]==1){
+                dfs(grid,r-1,i);
+            }
+        }
+
+        for(int i=0;i<r;i++){
+            if(grid[i][0]==1){
+                dfs(grid,i,0);
+            }
+
+            if(grid[i][c-1]==1){
+                dfs(grid,i,c-1);
+            }
+        }
+
+        for(int i=0;i<r;i++){
+            for(int j=0;j<c;j++){
                 if(grid[i][j]==1){
                     cnt++;
                 }
             }
         }
+
         return cnt;
     }
 }
