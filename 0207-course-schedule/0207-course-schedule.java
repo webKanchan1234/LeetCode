@@ -1,42 +1,43 @@
 class Solution {
     public boolean canFinish(int numCourses, int[][] prerequisites) {
-        List<List<Integer>> adj=new ArrayList<>();
-        for(int i=0;i<numCourses;i++){
-            adj.add(new ArrayList<>());
-        }
+        List<List<Integer>> graph=new ArrayList<>();
+        int[] indegree=new int[numCourses];
 
-        int[] indeg=new int[numCourses];
+        for(int i=0;i<numCourses;i++){
+            graph.add(new ArrayList<>());
+        }
 
         for(int[] pre:prerequisites){
-            int c=pre[0];
-            int r=pre[1];
-            adj.get(r).add(c);
-            indeg[c]++;
+            int course=pre[0];
+            int preq=pre[1];
+            graph.get(preq).add(course);
+
+            indegree[course]++;
         }
 
-        Queue<Integer>q=new LinkedList<>();
+        Queue<Integer> q=new LinkedList<>();
 
         for(int i=0;i<numCourses;i++){
-            if(indeg[i]==0){
+            if(indegree[i]==0){
                 q.offer(i);
             }
         }
 
-        int taken=0;
+        int complete=0;
 
         while(!q.isEmpty()){
-            int curr=q.poll();
-            taken++;
+            complete++;
+            int course=q.poll();
 
-            for(int next : adj.get(curr)){
-                indeg[next]--;
-                if(indeg[next]==0){
-                    q.offer(next);
+            for(int nxt:graph.get(course)){
+                indegree[nxt]--;
+
+                if(indegree[nxt]==0){
+                    q.offer(nxt);
                 }
             }
         }
 
-        return taken==numCourses;
-
+        return complete==numCourses;
     }
 }
