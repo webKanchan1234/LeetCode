@@ -1,36 +1,43 @@
+import java.util.*;
+
 class Solution {
-    public boolean bipart(int st,int[] color,int[][] graph){
-        Queue<Integer>q=new LinkedList<>();
-        q.offer(st);
-        color[st]=0;
-
-        while(!q.isEmpty()){
-            int node=q.poll();
-
-            for(int nxt:graph[node]){
-                if(color[nxt]==-1){
-                    color[nxt]=1-color[node];
-                    q.offer(nxt);
-                }else if(color[nxt]==color[node]){
-                    return false;
-                }
-            }
-        }
-        return true;
-    }
     public boolean isBipartite(int[][] graph) {
-        int n=graph.length;
-        int[] color=new int[n];
 
-        Arrays.fill(color,-1);
+        int n = graph.length;
 
-        for(int i=0;i<n;i++){
-            if(color[i]==-1){
-                if(!bipart(i,color,graph)){
-                    return false;
+        int[] color = new int[n];
+        Arrays.fill(color, -1);
+
+        for (int i = 0; i < n; i++) {
+
+            if (color[i] != -1) {
+                continue;
+            }
+
+            Queue<Integer> queue = new LinkedList<>();
+
+            color[i] = 0;
+            queue.offer(i);
+
+            while (!queue.isEmpty()) {
+
+                int node = queue.poll();
+
+                for (int neighbor : graph[node]) {
+
+                    if (color[neighbor] == -1) {
+
+                        color[neighbor] = 1 - color[node];
+                        queue.offer(neighbor);
+
+                    }
+                    else if (color[neighbor] == color[node]) {
+                        return false;
+                    }
                 }
             }
         }
+
         return true;
     }
 }
