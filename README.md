@@ -428,4 +428,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0785-is-graph-bipartite](https://github.com/webKanchan1234/LeetCode/tree/main/0785-is-graph-bipartite/) | Medium |
+## Kosaraju's Algorithm
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0802-find-eventual-safe-states](https://github.com/webKanchan1234/LeetCode/tree/main/0802-find-eventual-safe-states/) | Medium |
+## Tarjan's SCC Algorithm
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0802-find-eventual-safe-states](https://github.com/webKanchan1234/LeetCode/tree/main/0802-find-eventual-safe-states/) | Medium |
 <!---LeetCode Topics End-->
