@@ -436,4 +436,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0802-find-eventual-safe-states](https://github.com/webKanchan1234/LeetCode/tree/main/0802-find-eventual-safe-states/) | Medium |
+## Bidirectional Search
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0127-word-ladder](https://github.com/webKanchan1234/LeetCode/tree/main/0127-word-ladder/) | Hard |
 <!---LeetCode Topics End-->
